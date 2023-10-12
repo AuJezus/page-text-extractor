@@ -18,7 +18,9 @@ figlet("Page Text Extractor", (err, data) => {
   }
 
   console.log(
-    gradient.pastel.multiline(boxen(data, { borderStyle: "double" }))
+    gradient.pastel.multiline(
+      boxen(data, { borderStyle: "double", padding: 1 })
+    )
   );
   abortController.abort();
 });
