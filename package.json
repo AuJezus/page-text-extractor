@@ -7,6 +7,9 @@
   "scripts": {
     "start": "nodemon index.js"
   },
+  "bin": {
+    "pte": "./index.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
